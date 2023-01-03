@@ -11,7 +11,7 @@
   <ul>
     <% bikes.forEach(bike =>{ %>
       <li>
-        <%= bike. %> 
+        <%= `This ${bike.year} ${bike.make} ${bike.model} has a ${bike.dis} displacement engine, and currently ${bike.runs ? 'runs' : 'does not run'}.`  %>
       </li>
     <% }) %> 
   </ul>
